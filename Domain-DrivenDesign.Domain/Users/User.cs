@@ -1,8 +1,10 @@
-﻿namespace Domain_DrivenDesign.Domain.Users;
+﻿using Domain_DrivenDesign.Domain.Abstraction;
 
-public class User
+namespace Domain_DrivenDesign.Domain.Users;
+
+public class User : Entity
 {
-    public Guid Id { get; set; }
+    public User(Guid id) : base(id) { }
     public string Name { get; set; }
     public string EMail { get; set; }
     public string Password { get; set; }

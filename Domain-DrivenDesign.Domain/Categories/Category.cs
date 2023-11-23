@@ -5,9 +5,7 @@ namespace Domain_DrivenDesign.Domain.Categories;
 
 public class Category : Entity
 {
-    public Category(Guid id) : base(id)
-    {
-    }
+    public Category(Guid id) : base(id) {}
 
     public string Name { get; set; }
     public ICollection<Product> Products { get; set;}

@@ -5,6 +5,8 @@ VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain-DrivenDesign.Domain", "Domain-DrivenDesign.Domain\Domain-DrivenDesign.Domain.csproj", "{5E7F4E8C-7617-42AF-9FED-F484CB5E5036}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain-DrivenDesign.ConsoleApp", "Domain-DrivenDesign.ConsoleApp\Domain-DrivenDesign.ConsoleApp.csproj", "{9FC4F4BF-5009-4C8A-A34A-CBBD57D1D24E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{5E7F4E8C-7617-42AF-9FED-F484CB5E5036}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E7F4E8C-7617-42AF-9FED-F484CB5E5036}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E7F4E8C-7617-42AF-9FED-F484CB5E5036}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FC4F4BF-5009-4C8A-A34A-CBBD57D1D24E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FC4F4BF-5009-4C8A-A34A-CBBD57D1D24E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FC4F4BF-5009-4C8A-A34A-CBBD57D1D24E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FC4F4BF-5009-4C8A-A34A-CBBD57D1D24E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

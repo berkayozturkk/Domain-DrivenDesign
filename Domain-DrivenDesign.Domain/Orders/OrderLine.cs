@@ -6,11 +6,10 @@ namespace Domain_DrivenDesign.Domain.Orders;
 
 public class OrderLine : Entity
 {
-    public OrderLine(Guid id, Guid orderId, Guid productId, Product product,
+    public OrderLine(Guid id, Guid orderId, Guid productId,
        int quantity, Money price) : base(id)
     {
         ProductId = productId;
-        Product = product;
         Quantity = quantity;
         Price = price;
     }

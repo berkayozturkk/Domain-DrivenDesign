@@ -9,6 +9,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain-DrivenDesign.Console
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain-DrivenDesign.Application", "Domain-DrivenDesign.Application\Domain-DrivenDesign.Application.csproj", "{6F7319D6-1401-439D-83A6-69A451105C8C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain-DrivenDesign.Infrastructure", "Domain-DrivenDesign.Infrastructure\Domain-DrivenDesign.Infrastructure.csproj", "{A0E6907F-B0AE-4E9D-9180-BA4E940533AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain-DrivenDesign.WepApi", "Domain-DrivenDesign.WepApi\Domain-DrivenDesign.WepApi.csproj", "{14C9BB65-7750-40DC-906D-8C147415FAD5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{6F7319D6-1401-439D-83A6-69A451105C8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F7319D6-1401-439D-83A6-69A451105C8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F7319D6-1401-439D-83A6-69A451105C8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0E6907F-B0AE-4E9D-9180-BA4E940533AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0E6907F-B0AE-4E9D-9180-BA4E940533AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0E6907F-B0AE-4E9D-9180-BA4E940533AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0E6907F-B0AE-4E9D-9180-BA4E940533AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14C9BB65-7750-40DC-906D-8C147415FAD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14C9BB65-7750-40DC-906D-8C147415FAD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14C9BB65-7750-40DC-906D-8C147415FAD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14C9BB65-7750-40DC-906D-8C147415FAD5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

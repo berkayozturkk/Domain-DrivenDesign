@@ -31,7 +31,6 @@ public class User : Entity
             address: new(country, city, street, fullAddress, postalCode));
 
         return user;
-
     }
 
     public void ChangeName(string name)
